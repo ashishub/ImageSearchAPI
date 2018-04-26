@@ -1,0 +1,23 @@
+{
+  "name": "imagesearchapi",
+  "version": "1.0.0",
+  "description": "API to search using images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^1.4.0",
+    "@google-cloud/vision": "^0.19.0",
+    "express": "^4.16.3",
+    "https-proxy-agent": "^2.2.1",
+    "multer": "^1.3.0",
+    "request": "^2.85.0"
+  }
+}
